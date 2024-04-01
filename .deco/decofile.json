@@ -270,5 +270,29 @@
       "directives": []
     },
     "firstByteThresholdMS": false
+  },
+  "collections/blog/authors/098f64daddad": {
+    "name": "collections/blog/authors/098f64daddad",
+    "__resolveType": "blog/loaders/Author.ts",
+    "author": {
+      "name": "Hericles",
+      "email": "hericles@deco.cx"
+    }
+  },
+  "collections/blog/posts/a49f4b179b07": {
+    "name": "collections/blog/posts/a49f4b179b07",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "__resolveType": "collections/blog/authors/098f64daddad"
+        }
+      ],
+      "title": "I love my new blog",
+      "subtitle": "Hericlex rox and I can prove it",
+      "date": "2024-04-01",
+      "slug": "hericles-rox",
+      "content": "<p>Bananas de pijamas</p>"
+    }
   }
 }
